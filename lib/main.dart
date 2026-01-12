@@ -1,20 +1,29 @@
 import 'package:flutter/material.dart';
-import 'widgets/bottom_nav.dart';
 
-void main() {
-  runApp(const MyApp());
+import 'models/book.dart';
+import 'services/local_storage.dart';
+import 'screens/bottom_nav_screen.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  final List<Book> savedBooks = await LocalStorage.loadBooks();
+
+  runApp(BookShelfApp(allBooks: savedBooks));
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class BookShelfApp extends StatelessWidget {
+  final List<Book> allBooks;
+
+  const BookShelfApp({super.key, required this.allBooks});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'BookShelf',
-      theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.deepPurple),
-      home: const BottomNav(),
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: BottomNavScreen(allBooks: allBooks),
     );
   }
 }
