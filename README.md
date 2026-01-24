@@ -8,7 +8,7 @@ A **local-first BookShelf application** built with Flutter that allows users to 
 ## 🚀 Project Status
 
 ✅ **Phase 1 – Completed**
-⏳ Phase 2 – Cloud Sync (Planned)
+⏳ Phase 2 – Cloud Sync (Comming Soon on 25 Jan 2026)
 ⏳ Phase 3 – Book Trading & Social Features (Planned)
 
 ---
