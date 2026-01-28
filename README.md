@@ -35,41 +35,6 @@ A **local-first BookShelf app** built with Flutter to search books online, save 
 
 ---
 
-## 🗂 Project Structure
-
-MyBookShelf/
-│
-├── android/                 # Android platform code (Gradle, Manifest, etc.)
-├── ios/                     # iOS platform code
-├── lib/                  
-│   ├── main.dart
-│   │
-│   ├── models/
-│   │   └── book.dart
-│   │
-│   ├── services/
-│   │   ├── local_storage.dart
-│   │   └── auth_service.dart   # simulated auth
-│   │
-│   ├── screens/
-│   │   ├── login_screen.dart
-│   │   ├── signup_screen.dart
-│   │   ├── bottom_nav_screen.dart
-│   │   ├── home_screen.dart
-│   │   ├── search_screen.dart
-│   │   ├── shelf_screen.dart
-│   │   └── profile_screen.dart
-│   │
-│   └── widgets/             # reusable UI components (optional)
-│
-├── pubspec.yaml
-├── pubspec.lock
-├── README.md               
-├── .gitignore
-└── analysis_options.yaml
-
-
-
 ## 🔮 Roadmap
 
 #Phase 2
