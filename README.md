@@ -7,7 +7,7 @@ A **local-first BookShelf app** built with Flutter to search books online, save 
 ## 🚀 Project Status
 
 - ✅ **Phase 1:** Local single-user app (Completed)
-- ⏳ **Phase 2:** Cloud sync & authentication (Planned)
+- ⏳ **Phase 2:** Cloud sync & authentication (Comming soon)
 - ⏳ **Phase 3:** Social & book trading features (Planned)
 
 ---
