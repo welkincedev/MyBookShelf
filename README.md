@@ -7,14 +7,14 @@ A **local-first BookShelf app** built with Flutter to search books online, save 
 ## 🚀 Project Status
 
 - ✅ **Phase 1:** Local single-user app (Completed)
-- ⏳ **Phase 2:** Cloud sync & authentication (Comming soon)
+- ⏳ **Phase 2:** Cloud sync & authentication (Comming Soon)
 - ⏳ **Phase 3:** Social & book trading features (Planned)
 
 ---
 
 ## 🎯 Phase 1 Features
 
-- 🔍 Search books using **Google Books API**
+- 🔍 Search books using **Google Books API** Just if you have any
 - 📚 Save books to a personal shelf (offline)
 - ❤️ Mark favorites
 - 📖 Track reading status (Not Started / Reading / Completed)
