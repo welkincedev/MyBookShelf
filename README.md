@@ -1,4 +1,4 @@
-# 📚 BookShelf (Flutter)
+# 📚 My Book Shelf
 
 A **local-first BookShelf app** built with Flutter to search books online, save them locally, and manage personal reading progress.
 
